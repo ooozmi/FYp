@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".About" >
+   
+    <ScrollView
+        android:id="@+id/ScrollViewHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <TextView
+        
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:text="How to Improve Your Eyesight 
+        1-Learn about how vision works. This way, you can understand what you are doing when you are retraining your vision. Improving your vision is a matter of changing the habitual way you see and use your eyes
+
+2-Get an eye chart. Place it on the wall so you can measure your progress. You can usually find one online.
+
+3-Do relaxation exercises. Place your hands together palm to palm and rub them together briskly creating heat.Place them over your eyes and let your eyes relax. Imagine a relaxing place. Do not let light in. Do this whenever you have time during the day, especially when you're sitting at the computer.
+
+4-Maintain moisture. Maintaining the natural balance of moisture within your eyes is one of the most important things you can do to keep them healthy. Dry eyes can be itchy, red and even painful. Try to blink frequently, even when you are focused on watching TV or working on your computer.
+
+5-Exercise your eyes. If you think about the way your muscles work, then you probably understand that the less exercise they get, the worse off you are. The same thing goes for your eyes. There are specific exercises you can do, that may be able to help you see better.
+
+6-Increase eye flexibility. If you have ever undertaken an exercise program or played a sport, then you know that flexibility is important. If you don't stretch, or if you use the same muscles over and over again without moving opposite muscle groups, you lose flexibility. If you have a job that requires you to spend long hours looking at a screen, be sure you focus on different objects periodically; try not to keep your eyes in the same position for too long.
+
+7-Lower the brightness level of your computer screen. Lowering the brightness level of your computer's monitor can help your eyes to relax. Don't lower it so much that you have trouble seeing, and avoid positioning your monitor so there are reflections.
+
+8-Take regular breaks. If your eyes must focus on a task for long periods of time, take regular breaks. Taking a ten minute break every hour can help prevent eye strain and give your eyes a chance to heal themselves.
+
+9-Reduce stress. Every one of the body's systems reacts to stress differently. The eyes are put under constant strain and stress - the more TV you watch, the more you stare at a computer screen, and the more you play games on your smartphone, the more stress you put on your eyes. Make an effort to use natural light, and take time away from your gadgets. You might be surprised to find that you see and feel better as a result.
+
+10-Get some sleep. You might have noticed that when you go for long periods of time without adequate sleep, you feel tired and head-achy. You also may have noticed that your vision seems blurry and that it almost hurts to keep your eyes open. Sleep is important for all your bodily functions, and getting adequate rest can assist in eyesight improvement since sleep allows overworked eye muscles to relax completely.
+
+11-Protect your eyes from UV rays. Wear good quality sunglasses that provide UV protection, and your eyes will thank you. Amazingly enough, you can gain eyesight improvement, and look great - all at the same time!
+
+
+
+
+
+ "
+        
+        tools:ignore="HardcodedText,TextFields" />
+    
+    
+</ScrollView>
+</RelativeLayout>
